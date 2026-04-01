@@ -1,0 +1,114 @@
+/* ===== BANNER ===== */
+.banner {
+    background: url('../images/banner.jpg') center/cover no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+/* затемнення як на макеті */
+.banner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+}
+
+/* контент по центру */
+.banner-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* заголовок */
+.banner h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* кнопка */
+.banner .btn {
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+/* ===== MAIN ACTIVITY ===== */
+.main-activity h2 {
+    font-weight: 700;
+}
+
+.section-subtitle {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.activity-card {
+    padding: 20px;
+}
+
+.activity-card img {
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.activity-card h4 {
+    color: #4caf50;
+    font-size: 18px;
+}
+
+/* ===== VISION ===== */
+.vision h3 {
+    font-weight: 700;
+}
+
+.vision img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* ===== PRODUCTS ===== */
+.product-img {
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== TOMATO PAGE ===== */
+.tomato-img {
+    width: 100%;
+    max-width: 220px;
+    height: 140px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto 20px;
+    border-radius: 10px;
+}
+
+.card {
+    min-height: 280px;
+    border-radius: 12px;
+}
+
+.card h4 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
