@@ -5,7 +5,6 @@
     position: relative;
 }
 
-/* затемнення як на макеті */
 .banner::before {
     content: "";
     position: absolute;
@@ -16,7 +15,6 @@
     left: 0;
 }
 
-/* контент по центру */
 .banner-content {
     position: relative;
     z-index: 2;
@@ -27,14 +25,12 @@
     align-items: center;
 }
 
-/* заголовок */
 .banner h1 {
     color: white;
     font-size: 48px;
     font-weight: 700;
 }
 
-/* кнопка */
 .banner .btn {
     padding: 10px 25px;
     font-weight: 600;
@@ -75,7 +71,7 @@
     object-fit: cover;
 }
 
-/* ===== PRODUCTS ===== */
+/* ===== PRODUCTS (index.html) ===== */
 .product-img {
     height: 150px;
     object-fit: contain;
@@ -87,7 +83,7 @@
     transform: scale(1.05);
 }
 
-/* ===== TOMATO PAGE ===== */
+/* ===== TOMATO ALL PAGE ===== */
 .tomato-img {
     width: 100%;
     max-width: 220px;
@@ -101,8 +97,14 @@
 .card {
     min-height: 280px;
     border-radius: 12px;
+    transition: 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* текст в картках */
 .card h4 {
     font-size: 22px;
     margin-top: 10px;
@@ -111,4 +113,28 @@
 .card p {
     font-size: 16px;
     margin-bottom: 0;
+}
+
+/* ===== TOMATO ONE PAGE ===== */
+.tomato-one-page h1 {
+    font-weight: 700;
+}
+
+.tomato-one-img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.tomato-one-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tomato-list {
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 1.8;
 }
