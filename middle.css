@@ -138,3 +138,25 @@
     font-size: 17px;
     line-height: 1.8;
 }
+/* ===== CONTACT PAGE ===== */
+.contact-page h1 {
+    font-weight: 700;
+}
+
+.contact-page h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-page .card {
+    border-radius: 12px;
+}
+
+.contact-page .form-control {
+    border-radius: 8px;
+}
+
+.contact-page .btn {
+    padding: 10px 25px;
+    font-weight: 600;
+}
