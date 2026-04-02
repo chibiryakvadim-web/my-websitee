@@ -198,3 +198,24 @@
     margin: 0 auto;
     border-radius: 10px;
 }
+.cart-mini-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-table-wrap {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact-page table th,
+.contact-page table td {
+    vertical-align: middle;
+}
+
+.contact-page .alert {
+    border-radius: 12px;
+}
