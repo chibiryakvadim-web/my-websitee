@@ -160,3 +160,41 @@
     padding: 10px 25px;
     font-weight: 600;
 }
+.tomato-one-img {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.radish-page {
+    background: #f5fff5;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+.category-banner {
+    max-width: 500px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.tomato-img-wrap {
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomato-img {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
