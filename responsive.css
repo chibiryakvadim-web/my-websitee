@@ -1,0 +1,323 @@
+/* ===== 1920px ===== */
+@media screen and (max-width: 1920px) {
+    .banner h1 {
+        font-size: 46px;
+    }
+
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* ===== 1600px ===== */
+@media screen and (max-width: 1600px) {
+    .banner {
+        height: 420px;
+    }
+
+    .banner h1 {
+        font-size: 42px;
+    }
+
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* ===== 1480px ===== */
+@media screen and (max-width: 1480px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner h1 {
+        font-size: 38px;
+    }
+
+    .tomato-one-img {
+        max-width: 380px;
+        height: 280px;
+    }
+}
+
+/* ===== 1280px ===== */
+@media screen and (max-width: 1280px) {
+    .banner {
+        height: 360px;
+    }
+
+    .banner h1 {
+        font-size: 34px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .nav-links a {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+
+    .tomato-one-img {
+        max-width: 340px;
+        height: 250px;
+    }
+
+    .card h4 {
+        font-size: 20px;
+    }
+}
+
+/* ===== iPad ===== */
+@media screen and (max-width: 1024px) {
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        margin: 0;
+    }
+
+    .banner {
+        height: 320px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .main-activity .row,
+    .products .row,
+    .vision .row,
+    .contact-page .row,
+    .tomato-one-page .row {
+        row-gap: 25px;
+    }
+
+    .tomato-one-text,
+    .tomato-list {
+        font-size: 16px;
+    }
+
+    .tomato-one-img {
+        max-width: 300px;
+        height: 220px;
+    }
+}
+
+/* ===== iPhone X / large phones ===== */
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 280px;
+    }
+
+    .banner h1 {
+        font-size: 26px;
+        padding: 0 10px;
+    }
+
+    .banner .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .logo {
+        max-width: 130px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+
+    .activity-card,
+    .card {
+        padding: 15px;
+    }
+
+    .activity-card img {
+        height: 80px;
+    }
+
+    .product-img {
+        height: 120px;
+    }
+
+    .tomato-img {
+        max-width: 180px;
+        height: 120px;
+    }
+
+    .tomato-one-img {
+        max-width: 260px;
+        height: 200px;
+    }
+
+    .card h4 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .contact-page .card,
+    .tomato-one-page .card {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+}
+
+/* ===== iPhone 8 / 7 / 6 ===== */
+@media screen and (max-width: 414px) {
+    header .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner {
+        height: 220px;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .main-activity h2,
+    .vision h2,
+    .products h2,
+    .contact-page h1,
+    .tomato-one-page h1 {
+        font-size: 28px;
+    }
+
+    .vision h3,
+    .contact-page h3 {
+        font-size: 22px;
+    }
+
+    .tomato-one-text,
+    .tomato-list {
+        font-size: 15px;
+    }
+
+    .tomato-img {
+        max-width: 160px;
+        height: 100px;
+    }
+
+    .tomato-one-img {
+        max-width: 220px;
+        height: 170px;
+    }
+
+    .product-img {
+        height: 100px;
+    }
+
+    .card h4 {
+        font-size: 17px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .contact-page .btn,
+    .banner .btn {
+        width: 100%;
+    }
+
+    .contact-page .form-control {
+        font-size: 14px;
+    }
+}
+
+/* ===== iPhone 4 ===== */
+@media screen and (max-width: 320px) {
+    .banner {
+        height: 180px;
+    }
+
+    .banner h1 {
+        font-size: 17px;
+    }
+
+    .logo {
+        max-width: 110px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .main-activity h2,
+    .vision h2,
+    .products h2,
+    .contact-page h1,
+    .tomato-one-page h1 {
+        font-size: 24px;
+    }
+
+    .vision h3,
+    .contact-page h3 {
+        font-size: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 13px;
+    }
+
+    .activity-card img,
+    .product-img,
+    .tomato-img {
+        height: auto;
+        max-width: 140px;
+    }
+
+    .tomato-one-img {
+        max-width: 180px;
+        height: 140px;
+    }
+
+    .card {
+        padding: 12px;
+        min-height: auto;
+    }
+
+    .card h4 {
+        font-size: 16px;
+    }
+
+    .card p,
+    .tomato-one-text,
+    .tomato-list,
+    .contact-page p,
+    .contact-page label {
+        font-size: 13px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
